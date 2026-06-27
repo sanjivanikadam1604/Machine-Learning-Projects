@@ -1,0 +1,107 @@
+# Country Segmentation using Clustering Techniques
+
+## About the Project
+
+This project focuses on segmenting countries based on socio-economic and health-related indicators using unsupervised machine learning techniques. The goal is to identify groups of countries with similar development patterns and economic characteristics.
+
+The project implements both **K-Means Clustering** and **Hierarchical Clustering** and compares their performance using the Silhouette Score.
+
+---
+
+## Dataset Features
+
+The dataset contains the following attributes:
+
+* Child Mortality
+* Exports
+* Health Expenditure
+* Imports
+* Income
+* Inflation
+* Life Expectancy
+* Total Fertility Rate
+* GDP per Capita
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* Matplotlib
+* SciPy
+
+---
+
+## Project Workflow
+
+1. Data Loading and Exploration
+2. Data Cleaning
+3. Feature Scaling using StandardScaler
+4. Elbow Method Analysis
+5. K-Means Clustering
+6. Hierarchical Clustering
+7. PCA-based Visualization
+8. Silhouette Score Evaluation
+9. Cluster Interpretation
+
+---
+
+## Techniques Implemented
+
+### K-Means Clustering
+
+Used to divide countries into clusters based on similarities in socio-economic indicators.
+
+### Hierarchical Clustering
+
+Applied Agglomerative Clustering to build a hierarchy of country groups and visualize relationships using a dendrogram.
+
+### Elbow Method
+
+Used to determine the optimal number of clusters for K-Means.
+
+### Principal Component Analysis (PCA)
+
+Reduced dimensionality for cluster visualization.
+
+### Silhouette Score
+
+Evaluated the quality of clustering results.
+
+---
+
+## Results
+
+* Successfully segmented countries into 5 clusters.
+* Compared K-Means and Hierarchical Clustering approaches.
+* Visualized clusters using PCA.
+* Generated cluster-wise summaries for interpretation.
+* Evaluated clustering quality using Silhouette Scores.
+
+---
+
+## Key Insights
+
+* Developed countries formed separate clusters with high income and GDP per capita.
+* Developing and underdeveloped countries were grouped based on similar socio-economic characteristics.
+* Health, income, life expectancy, and child mortality significantly influenced cluster formation.
+
+---
+
+## Future Improvements
+
+* Interactive dashboards using Streamlit
+* Advanced clustering techniques such as DBSCAN
+* Automated cluster interpretation
+* Geographic visualization of clusters
+
+---
+
+## Author
+
+**Sanjivani Kadam**
+B.Tech Robotics and Artificial Intelligence
+COEP Technological University
